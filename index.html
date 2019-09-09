@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="portfolio">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Lima Fortes</title>
+
+    <meta name="description" content="Bem Vindo ao meu Portfolio!! Todos os contatos e informações estão nessa página!!">
+    <meta name="author" content="Daniel Lima Fortes">
+    <meta name="keywords" content="daniel lima fortes, daniel, blog, webdev, frontend, it, minimalist blogging platform, simple blog platform, easy blogging, uncluttered blogging, web developer blog, programmer blog platform, coder blog, programmer blogs">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/tox-progress.css">
+
+  </head>
+
+  <body ng-controller="portfolioCtrl">
+
+    <div id="particles-js" style="z-index:-1;"></div>
+
+  	<div class="jumbotron" style="z-index:9999;">
+
+  		<div class="col-sm-12 col-md-12 col-lg-12 bounceInDown animated">
+
+  			<h3 class="msginicio text-uppercase text-center">{{ola}}</h3>
+  			<h1 class="nomecompletoinicio text-uppercase text-center">{{nomecompleto}}</h1>
+  			<h2 class="msginiciobv text-uppercase text-center">{{mensagembemvindo}}</h2>
+
+
+  		</div>
+
+  		<div class="vetor">
+            <div class="euvetorcircle bounceIn animated">
+                <div class="pic">
+                    <img src="images/euvetor.png">
+                </div>
+             </div>
+        </div>
+  	</div>    
+
+  	<div class="main">
+
+        <div class="azul"></div>
+
+        <div class="sobre text-center">
+          
+          <div class="sobre-main container">
+              <h1 class="sobretext">" {{sobretext}} "</h1>
+              <hr>
+
+          </div>
+
+          <div class="btngodown">
+            <a href="https://www.linkedin.com/in/daniellimafortes/" target="_blank" class="btn btn-lg btn-godown">Meu <span class="fa fa-linkedin" style="color:#fff; font-size:32px;"></span> LinkedIn</a>
+          </div>
+
+        </div>
+
+        <div class="skills">
+          <div class="container">
+
+            <div class="skillstitle">
+              <h1 class="text-center">{{skillstitle}}</h1>
+              <hr>
+
+                  <div class="skillrow">
+                    
+                        <div class="col-lg-3 col-md-4 col-sm-12 ">
+                          <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                               data-background="#ffffff" data-progress="78" data-speed="500">
+                              <div class="tox-progress-content" data-vcenter="true">
+                                  <img height="90" style="margin:auto" src="images/js_badge.png"/>
+                              </div>
+                          </div>
+                          
+                        </div>
+
+                          <div class="col-lg-3 col-md-4 col-sm-12 ">
+                              <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                   data-background="#ffffff" data-progress="90" data-speed="500">
+                                  <div class="tox-progress-content" data-vcenter="true">
+                                      <img height="90" style="margin:auto" src="images/html_badge.png"/>
+                                  </div>
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-lg-3 col-md-4 col-sm-12 ">
+                              <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                   data-background="#ffffff" data-progress="90" data-speed="500">
+                                  <div class="tox-progress-content" data-vcenter="true">
+                                      <img height="90" style="margin:auto" src="images/css_badge.png"/>
+                                  </div>
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-lg-3 col-md-4 col-sm-12 ">
+                              <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                   data-background="#ffffff" data-progress="30" data-speed="500">
+                                  <div class="tox-progress-content" data-vcenter="true">
+                                      <img height="90" style="margin:auto" src="images/angularjs_badge.png"/>
+                                  </div>
+                              </div>
+                              
+                          </div>
+
+                  </div>
+
+                  <div class="skillrow">
+
+                              <div class="col-lg-3 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="80" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/bootstrap_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="col-lg-3 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="32" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/csharp_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="col-lg-3 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="42" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/mysql_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="col-lg-3 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="92" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/en_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                      </div>
+
+                      <div class="skillrow">
+
+                              <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="82" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/ps_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="12" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/react_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                              <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                  <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#0062B6"
+                                       data-background="#ffffff" data-progress="88" data-speed="500">
+                                      <div class="tox-progress-content" data-vcenter="true">
+                                          <img height="90" style="margin:auto" src="images/ai_badge.png"/>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+
+                      </div>
+
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="portfolio">
+
+            <div class="skew">
+              <div>
+                <h1 class="text-center" style="font-family: 'Cutive Mono', monospace;">{{portfoliotitle}}</h1>
+                <hr style="border-color: #fff !important;">
+              </div>
+            </div>
+
+            <div class="portfoliogroup">
+
+                <div class="projects container mt-40">
+
+
+                  <div class="project-left">
+                    <div class="project-img">
+                      <img src="images/creativecontrol.png">
+                    </div>
+                  </div>
+
+
+                </div>
+          </div>
+
+        </div>
+
+
+        </div>
+
+    </div>
+
+    <footer class="footer text-center">
+      <p>Site desenvolvido e pensado por <a href="https://www.linkedin.com/in/daniellimafortes/">Daniel Lima Fortes</a>. 2019</p>
+    </footer>
+
+
+  	
+
+
+  <script src="lib/js/jquery-3.4.1.min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <script src="lib/js/angular.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="lib/js/particles.js"></script>
+  <script src="lib/js/skills.js"></script>
+  <script src="lib/js/script.js"></script>
+  <script src="lib/js/tox-progress.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            ToxProgress.create();
+            ToxProgress.animate();
+        });
+    </script>
+
+
+  </body>
+</html>
